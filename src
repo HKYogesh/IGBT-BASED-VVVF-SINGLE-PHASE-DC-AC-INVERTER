@@ -3,7 +3,7 @@ void Sysctl(void);
 void Init_Pwm(void);
 __interrupt void EPwm1ISR(void);
 __interrupt void EPwm2ISR(void);
-int i,p,q;
+int i;
 long j;
 intSineTableA[]={851,1665,2406,3043,3546,3894,4072,4095,4072,3894,3546,3043,2406,1665,85
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
