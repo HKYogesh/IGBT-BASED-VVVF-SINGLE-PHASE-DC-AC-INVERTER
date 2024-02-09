@@ -134,3 +134,4 @@ EPwm2Regs.ETCLR.bit.INT = 1; // Clear interrupt
  EPwm2Regs.CMPA.bit.CMPA=0.2*SineTableB[j];
  }
 PieCtrlRegs.PIEACK.bit.ACK3=1;//acknowledge interrupt
+}
